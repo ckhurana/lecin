@@ -1914,6 +1914,12 @@ input, select, textarea {
 			box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
 		}
 
+		#header > .container-narrow {
+			padding: 10em 0 5em 0;
+			border-bottom: solid 2px #e5e5e5;
+			box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
+		}
+
 		#header h1 {
 			font-family: 'Arvo';
 			font-weight: 700;
@@ -2092,6 +2098,26 @@ input, select, textarea {
 		}
 
 		#features ul.actions {
+			margin-top: 1.25em;
+		}
+
+		.lessbottom {
+			padding:0;
+		}
+
+	#features_narrow {
+		position: relative;
+		overflow: hidden;
+		background: #fff;
+		text-align: center;
+		padding: 1em 0;
+	}
+
+		#features_narrow p {
+			text-align: center;
+		}
+
+		#features_narrow ul.actions {
 			margin-top: 1.25em;
 		}
 
@@ -2314,6 +2340,10 @@ input, select, textarea {
 
 			#main {
 				padding: 4em 0;
+			}
+
+			.lessbottom {
+				padding: 2em 0;
 			}
 
 		/* Footer */
